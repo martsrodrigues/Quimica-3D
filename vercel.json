@@ -1,13 +1,5 @@
 {
-  "builds": [
-    { "src": "package.json", "use": "@vercel/static-build" }
-  ],
-  "scripts": {
-    "build": "vite build"
-  },
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "framework": "vite",
-  "outputDirectory": "dist"
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite"
 }
